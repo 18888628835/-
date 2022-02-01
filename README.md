@@ -2,7 +2,7 @@
  * @Author: 邱彦兮
  * @Date: 2021-10-11 10:18:41
  * @LastEditors: 邱彦兮
- * @LastEditTime: 2022-02-01 15:02:49
+ * @LastEditTime: 2022-02-01 20:25:09
  * @FilePath: /Interview/README.md
 -->
 
@@ -51,6 +51,10 @@
 ## 10.HTTP2.0 与 HTTP1.1 的区别
 
 [HTTP2.0](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http20)
+
+## 11.请介绍一下 WebSocket
+
+[WebSocket](https://github.com/18888628835/Blog/blob/main/JavaScript/WebSocket.md#websocket简介)
 
 # 算法题
 
