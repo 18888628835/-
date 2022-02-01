@@ -1,33 +1,40 @@
+<!--
+ * @Author: 邱彦兮
+ * @Date: 2021-10-11 10:18:41
+ * @LastEditors: 邱彦兮
+ * @LastEditTime: 2022-02-01 15:02:49
+ * @FilePath: /Interview/README.md
+-->
+
 # HTTP
 
 ## 1.请说说你知道的 HTTP 状态码
 
-[http 状态码介绍](https://github.com/18888628835/Interview/blob/main/HTTP/HTTP.md#http-%E7%8A%B6%E6%80%81%E7%A0%81)
+[http 状态码介绍](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http-%E7%8A%B6%E6%80%81%E7%A0%81)
 
 [HTTP 状态码](https://github.com/18888628835/Blog/issues/31)
 
 ## 2.请描述一下 HTTP 缓存
 
-[http 缓存](https://github.com/18888628835/Interview/blob/main/HTTP/HTTP.md#http-%E7%BC%93%E5%AD%98)
-[]()
+[http 缓存](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http-%E7%BC%93%E5%AD%98)
 
 [http 缓存控制](https://github.com/18888628835/Blog/issues/36)
 
 ## 3.请描述一下 get 和 post 的区别
 
-[get 和 post 的区别](https://github.com/18888628835/Interview/blob/main/HTTP%E9%9D%A2%E8%AF%95%E9%A2%98.md#get-%E5%92%8C-post-%E7%9A%84%E5%8C%BA%E5%88%AB)
+[get 和 post 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题#get-%E5%92%8C-post-%E7%9A%84%E5%8C%BA%E5%88%AB)
 
 ## 4.请描述一下 Cookie、Session、localStorage、sessionStorage 的区别
 
-[Cookie、Session、localStorage、sessionStorage 的区别](https://github.com/18888628835/Interview/blob/main/HTTP%E9%9D%A2%E8%AF%95%E9%A2%98.md#cookiesessionlocalstoragesessionstorage)
+[Cookie、Session、localStorage、sessionStorage 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#cookiesessionlocalstoragesessionstorage)
 
 ## 5.什么是 CSRF 攻击
 
-[CSRF 攻击](https://github.com/18888628835/Interview/blob/main/HTTP%E9%9D%A2%E8%AF%95%E9%A2%98.md#csrf%E6%94%BB%E5%87%BB)
+[CSRF 攻击](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#csrf%E6%94%BB%E5%87%BB)
 
 ## 6.什么是 XSS 攻击
 
-[XSS 攻击](https://github.com/18888628835/Interview/blob/main/HTTP%E9%9D%A2%E8%AF%95%E9%A2%98.md#xss%E6%94%BB%E5%87%BB)
+[XSS 攻击](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#xss%E6%94%BB%E5%87%BB)
 
 ## 7.Cookie 是什么？
 
@@ -39,11 +46,11 @@
 
 ## 9.介绍一下 HTTP 和 HTTPS
 
-[HTTP 和 HTTPS 的区别](https://github.com/18888628835/Interview/blob/main/HTTP%E9%9D%A2%E8%AF%95%E9%A2%98.md#http%E5%92%8Chttps)
+[HTTP 和 HTTPS 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http%E5%92%8Chttps)
 
 ## 10.HTTP2.0 与 HTTP1.1 的区别
 
-[HTTP2.0](https://github.com/18888628835/Interview/blob/main/HTTP%E9%9D%A2%E8%AF%95%E9%A2%98.md#http20)
+[HTTP2.0](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http20)
 
 # 算法题
 
