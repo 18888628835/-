@@ -1,10 +1,16 @@
-<!--
- * @Author: 邱彦兮
- * @Date: 2021-10-11 10:18:41
- * @LastEditors: 邱彦兮
- * @LastEditTime: 2022-02-01 20:25:09
- * @FilePath: /Interview/README.md
--->
+# JavaScript
+
+## 1.请说说什么是原型链
+
+[深入理解原型](https://github.com/18888628835/Blog/issues/1)
+
+## 2.请说说什么是闭包
+
+[深入理解闭包](https://github.com/18888628835/Blog/issues/7)
+
+## 3.垃圾回收
+
+[深入理解垃圾回收](https://github.com/18888628835/Blog/issues/8)
 
 # HTTP
 
@@ -65,3 +71,11 @@
 ## 2.回文数
 
 [回文数](https://leetcode-cn.com/problems/palindrome-number/)
+
+## 3.用栈实现队列
+
+[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+
+## 4.用队列实现栈
+
+[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
