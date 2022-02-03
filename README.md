@@ -106,3 +106,11 @@
 ### 4.用队列实现栈
 
 [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
+
+### 5.反转链表
+
+[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+
+### 6.链表中倒数第 k 个节点
+
+[链表中倒数第 k 个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
