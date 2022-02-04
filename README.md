@@ -39,6 +39,14 @@
 
 [鼠标事件实现拖放](https://github.com/18888628835/Blog/blob/main/浏览器/UI事件.md#31-鼠标事件实现拖放)
 
+### 5.手动实现 new 关键字
+
+[手动实现 new 关键字](https://github.com/18888628835/Blog/issues/40)
+
+### 6.手写 call、apply、bind
+
+[手写 call、apply、bind](https://github.com/18888628835/Blog/issues/41)
+
 ## HTTP
 
 ### 1.请说说你知道的 HTTP 状态码
