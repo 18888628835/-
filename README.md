@@ -114,3 +114,11 @@
 ### 6.链表中倒数第 k 个节点
 
 [链表中倒数第 k 个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+
+### 7.扁平化数组与树形结构的互转
+
+[扁平化数组与树形结构的互转](https://github.com/18888628835/Blog/issues/65)
+
+### 8.替换空格
+
+[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
