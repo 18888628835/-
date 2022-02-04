@@ -47,6 +47,10 @@
 
 [手写 call、apply、bind](https://github.com/18888628835/Blog/issues/41)
 
+### 7.let、const 与 var 的区别
+
+[let、const 与 var 的区别](https://github.com/18888628835/Blog/issues/11)
+
 ## HTTP
 
 ### 1.请说说你知道的 HTTP 状态码
