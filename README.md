@@ -92,3 +92,7 @@
 7.[扁平化数组与树形结构的互转](https://github.com/18888628835/Blog/issues/65)
 
 8.[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+
+9.[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+
+10.[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
