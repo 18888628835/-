@@ -19,6 +19,8 @@
 
 2.[BFC 是什么](https://github.com/18888628835/Interview/issues/9)
 
+3.[清除浮动的三种方法](https://github.com/18888628835/Interview/issues/10)
+
 ## JavaScript
 
 1.[请说说什么是原型链](https://github.com/18888628835/Blog/issues/1)
@@ -36,6 +38,10 @@
 7.[let、const 与 var 的区别](https://github.com/18888628835/Blog/issues/11)
 
 8.[手写防抖和节流](https://github.com/18888628835/Blog/issues/42)
+
+9.[memory 函数](https://github.com/18888628835/Blog/issues/43)
+
+10.[AOP 函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#323-高阶函数实现aop>)
 
 ## HTTP
 
@@ -96,3 +102,11 @@
 9.[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
 10.[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
+
+11.[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+
+12.[两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+13.[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+
+14.[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/submissions/)
