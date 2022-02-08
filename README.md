@@ -21,6 +21,8 @@
 
 3.[清除浮动的三种方法](https://github.com/18888628835/Interview/issues/10)
 
+4.[垂直居中的五种方式](https://github.com/18888628835/Interview/issues/7)
+
 ## JavaScript
 
 1.[请说说什么是原型链](https://github.com/18888628835/Blog/issues/1)
@@ -42,6 +44,12 @@
 9.[memory 函数](https://github.com/18888628835/Blog/issues/43)
 
 10.[AOP 函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#323-高阶函数实现aop>)
+
+11.[谈谈对前端路由的理解](https://github.com/18888628835/Interview/issues/17)
+
+12.[[1,2,3].map(parseInt)返回什么](https://github.com/18888628835/Interview/issues/16)
+
+13.[(a ==1 && a== 2 && a==3) 可能为 true 吗](https://github.com/18888628835/Interview/issues/16)
 
 ## HTTP
 
