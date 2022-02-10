@@ -23,7 +23,7 @@
 
 4.[垂直居中的五种方式](https://github.com/18888628835/Interview/issues/7)
 
-## JavaScript
+## JavaScript/TypeScript
 
 1.[请说说什么是原型链](https://github.com/18888628835/Blog/issues/1)
 
@@ -39,7 +39,7 @@
 
 7.[let、const 与 var 的区别](https://github.com/18888628835/Blog/issues/11)
 
-8.[手写防抖和节流](https://github.com/18888628835/Blog/issues/42)
+8.[手写防抖和节流](https://github.com/18888628835/Interview/issues/12)
 
 9.[memory 函数](https://github.com/18888628835/Blog/issues/43)
 
@@ -53,7 +53,9 @@
 
 14.[symbol 是什么](https://github.com/18888628835/Blog/issues/19)
 
-15.[构造函数和 Class 如何实现继承](https://github.com/18888628835/Blog/issues/39)
+15.[构造函数和 Class 如何实现继承](https://github.com/18888628835/Interview/issues/6)
+
+16.[never 类型有什么用](https://github.com/18888628835/Interview/issues/13)
 
 ## HTTP
 
@@ -86,6 +88,10 @@
 10.[HTTP2.0 与 HTTP1.1 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http20)
 
 11.[请介绍一下 WebSocket](https://github.com/18888628835/Blog/blob/main/JavaScript/WebSocket.md#websocket简介)
+
+12.[TCP 和 UDP 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#TCP和UDP的区别)
+
+13.[跨域是什么,如何实现](https://github.com/18888628835/Interview/issues/11)
 
 ## 浏览器
 
@@ -132,3 +138,7 @@
 15.[旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 
 16.[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/submissions/)
+
+17.[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+
+18.[二进制中 1 的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
