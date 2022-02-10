@@ -51,6 +51,10 @@
 
 13.[(a ==1 && a== 2 && a==3) 可能为 true 吗](https://github.com/18888628835/Interview/issues/16)
 
+14.[symbol 是什么](https://github.com/18888628835/Blog/issues/19)
+
+15.[构造函数和 Class 如何实现继承](https://github.com/18888628835/Blog/issues/39)
+
 ## HTTP
 
 1.请说说你知道的 HTTP 状态码
@@ -88,6 +92,8 @@
 1.[请简述页面的生命周期](https://github.com/18888628835/Blog/blob/main/浏览器/浏览器加载文档和资源.md#页面生命周期)
 
 2.[async 和 defer 的区别](https://github.com/18888628835/Blog/blob/main/浏览器/浏览器加载文档和资源.md#脚本加载)
+
+3.[event loop 是什么](https://github.com/18888628835/Blog/blob/main/浏览器/事件循环.md)
 
 ## 扩展
 
