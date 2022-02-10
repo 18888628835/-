@@ -89,6 +89,10 @@
 
 2.[async 和 defer 的区别](https://github.com/18888628835/Blog/blob/main/浏览器/浏览器加载文档和资源.md#脚本加载)
 
+## 扩展
+
+1.[PWA 是什么](https://github.com/18888628835/Blog/blob/main/Flutter/H5手机App开发概念.md#31-pwa)
+
 ## 算法题
 
 1.[移除元素](https://leetcode-cn.com/problems/remove-element/)
