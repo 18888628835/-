@@ -27,7 +27,11 @@
 
 1.[请说说什么是原型链](https://github.com/18888628835/Blog/issues/1)
 
-2.[闭包是什么](https://github.com/18888628835/Blog/issues/7)
+2.闭包是什么
+
+[闭包](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#31-闭包>)
+
+[深入理解闭包](https://github.com/18888628835/Blog/issues/7)
 
 3.[简述 JS 的垃圾回收](https://github.com/18888628835/Blog/issues/8)
 
@@ -56,6 +60,12 @@
 15.[构造函数和 Class 如何实现继承](https://github.com/18888628835/Interview/issues/6)
 
 16.[never 类型有什么用](https://github.com/18888628835/Interview/issues/13)
+
+17.[如何渲染一万条数据-分时函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#324-高阶函数的其他应用>)
+
+18.[惰性加载函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#324-高阶函数的其他应用>)
+
+19.[什么是高阶函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#32-高阶函数>)
 
 ## HTTP
 
@@ -100,6 +110,8 @@
 2.[async 和 defer 的区别](https://github.com/18888628835/Blog/blob/main/浏览器/浏览器加载文档和资源.md#脚本加载)
 
 3.[event loop 是什么](https://github.com/18888628835/Blog/blob/main/浏览器/事件循环.md)
+
+4.[浏览器渲染的过程](https://github.com/18888628835/Blog/blob/main/浏览器/浏览器渲染过程.md#浏览器渲染)
 
 ## 扩展
 
