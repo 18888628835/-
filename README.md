@@ -1,5 +1,13 @@
 # 面试题
 
+## HTML
+
+1.[HTML 语义化](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#HTML语义化)
+
+2.[用过哪些 HTML 5 标签](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#用过哪些HTML5标签)
+
+3.[Canvas 和 SVG 的区别是什么](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#Canvas和SVG的区别是什么)
+
 ## CSS
 
 1.使用 CSS 实现三角形
