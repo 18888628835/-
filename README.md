@@ -67,12 +67,6 @@
 
 19.[什么是高阶函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#32-高阶函数>)
 
-20.[getElementBy*与 querySelector*的不同之处](https://github.com/18888628835/Blog/blob/main/浏览器/Document.md#44-实时的集合)
-
-21.[Attributes 和 properties 的区别](https://github.com/18888628835/Blog/blob/main/浏览器/Document.md#五attributes-和-properties)
-
-22.[介绍一下元素的几何属性](https://github.com/18888628835/Blog/blob/main/浏览器/Document.md#八元素大小和滚动)
-
 ## HTTP
 
 1.请说说你知道的 HTTP 状态码
@@ -118,6 +112,12 @@
 3.[event loop 是什么](https://github.com/18888628835/Blog/blob/main/浏览器/事件循环.md)
 
 4.[浏览器渲染的过程](https://github.com/18888628835/Blog/blob/main/浏览器/浏览器渲染过程.md#浏览器渲染)
+
+5.[getElementBy*与 querySelector*的不同之处](https://github.com/18888628835/Blog/blob/main/浏览器/Document.md#44-实时的集合)
+
+6.[Attributes 和 properties 的区别](https://github.com/18888628835/Blog/blob/main/浏览器/Document.md#五attributes-和-properties)
+
+7.[介绍一下元素的几何属性](https://github.com/18888628835/Blog/blob/main/浏览器/Document.md#八元素大小和滚动)
 
 ## 扩展
 
