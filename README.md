@@ -196,3 +196,9 @@
 31.[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
 
 32.[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)
+
+33.[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+
+34.[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+
+35.[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
