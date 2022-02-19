@@ -192,3 +192,7 @@
 29.[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)
 
 30.[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+
+31.[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
+
+32.[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)
