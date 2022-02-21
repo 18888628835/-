@@ -204,3 +204,7 @@
 35.[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
 36.[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+
+37.[有效的回文](https://leetcode-cn.com/problems/XltzEq/)
+
+38.[最多删除一个字符得到回文](https://leetcode-cn.com/problems/RQku0D/)
