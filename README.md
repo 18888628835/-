@@ -208,3 +208,7 @@
 37.[有效的回文](https://leetcode-cn.com/problems/XltzEq/)
 
 38.[最多删除一个字符得到回文](https://leetcode-cn.com/problems/RQku0D/)
+
+39.[合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)
+
+40.[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
