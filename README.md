@@ -218,3 +218,5 @@
 42.[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 43.[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+
+44.[判断链表是否有环](https://leetcode-cn.com/problems/linked-list-cycle/)
