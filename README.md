@@ -222,3 +222,7 @@
 44.[判断链表是否有环](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 45.[链表中环的入口节点](https://leetcode-cn.com/problems/c32eOV/)
+
+46.[每日温度](https://leetcode-cn.com/problems/iIQa4I/)
+
+47.[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
