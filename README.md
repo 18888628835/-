@@ -83,11 +83,7 @@
 
 [HTTP 状态码介绍](https://github.com/18888628835/Blog/issues/31)
 
-2.请描述一下 HTTP 缓存
-
-[http 缓存](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http-%E7%BC%93%E5%AD%98)
-
-[http 缓存控制](https://github.com/18888628835/Blog/issues/36)
+2.[http 缓存控制](https://github.com/18888628835/Blog/issues/36)
 
 3.[get 和 post 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题#get-%E5%92%8C-post-%E7%9A%84%E5%8C%BA%E5%88%AB)
 
@@ -234,3 +230,13 @@
 50.[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
 
 51.[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+
+52.[冒泡排序](https://github.com/18888628835/Blog/issues/53)
+
+53.[选择排序](https://github.com/18888628835/Blog/issues/15)
+
+54.[插入排序](https://github.com/18888628835/Blog/issues/16)
+
+55.[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+
+56.[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)
