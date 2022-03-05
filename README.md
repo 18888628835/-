@@ -83,7 +83,7 @@
 
 [HTTP 状态码介绍](https://github.com/18888628835/Blog/issues/31)
 
-2.[http 缓存控制](https://github.com/18888628835/Blog/issues/36)
+2.[http 缓存控制](https://github.com/18888628835/Blog/blob/main/HTTP/HTTP缓存控制.md)
 
 3.[get 和 post 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题#get-%E5%92%8C-post-%E7%9A%84%E5%8C%BA%E5%88%AB)
 
