@@ -77,21 +77,17 @@
 
 ## HTTP
 
-1.请说说你知道的 HTTP 状态码
-
-[HTTP 状态码列表](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http-%E7%8A%B6%E6%80%81%E7%A0%81)
-
-[HTTP 状态码介绍](https://github.com/18888628835/Blog/issues/31)
+1.[请说说你知道的 HTTP 状态码](https://github.com/18888628835/Blog/issues/31)
 
 2.[http 缓存控制](https://github.com/18888628835/Blog/blob/main/HTTP/HTTP缓存控制.md)
 
-3.[get 和 post 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题#get-%E5%92%8C-post-%E7%9A%84%E5%8C%BA%E5%88%AB)
+3.[get 和 post 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#get-和-post-的区别)
 
 4.[Cookie、Session、localStorage、sessionStorage 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#cookiesessionlocalstoragesessionstorage)
 
-5.[什么是 CSRF 攻击](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#csrf%E6%94%BB%E5%87%BB)
+5.[什么是 CSRF 攻击](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#csrf-攻击)
 
-6.[什么是 XSS 攻击](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#xss%E6%94%BB%E5%87%BB)
+6.[什么是 XSS 攻击](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#xss-攻击)
 
 7.[Cookie 是什么](https://github.com/18888628835/Blog/issues/35)
 
@@ -106,6 +102,10 @@
 12.[TCP 和 UDP 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#TCP和UDP的区别)
 
 13.[跨域是什么,如何实现](https://github.com/18888628835/Interview/issues/11)
+
+14.[点击劫持攻击是什么](https://github.com/18888628835/Blog/blob/main/浏览器/Frame和window.md#点击劫持攻击)
+
+15.[如何跨窗口通信](https://github.com/18888628835/Blog/blob/main/浏览器/Frame和window.md#跨窗口通信)
 
 ## 浏览器
 
