@@ -93,13 +93,13 @@
 
 8.[从 url 输入页面到页面展示到底发生了什么](https://github.com/18888628835/Blog/issues/27)
 
-9.[HTTP 和 HTTPS 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http%E5%92%8Chttps)
+9.[HTTP 和 HTTPS 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http-和-https)
 
 10.[HTTP2.0 与 HTTP1.1 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#http20)
 
 11.[请介绍一下 WebSocket](https://github.com/18888628835/Blog/blob/main/JavaScript/WebSocket.md#websocket简介)
 
-12.[TCP 和 UDP 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#TCP和UDP的区别)
+12.[TCP 和 UDP 的区别](https://github.com/18888628835/Interview/blob/main/HTTP面试题.md#tcp-和-udp-的区别)
 
 13.[跨域是什么,如何实现](https://github.com/18888628835/Interview/issues/11)
 
