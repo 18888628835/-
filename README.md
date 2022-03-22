@@ -231,16 +231,12 @@
 
 51.[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
-52.[冒泡排序](https://github.com/18888628835/Blog/issues/53)
+52.[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
 
-53.[选择排序](https://github.com/18888628835/Blog/issues/15)
+53.[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)
 
-54.[插入排序](https://github.com/18888628835/Blog/issues/16)
+54.[两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
 
-55.[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)
+55.[打印从 1 到最大的 n 位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 
-56.[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)
-
-57.[两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
-
-58.[打印从 1 到最大的 n 位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+56.[求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
