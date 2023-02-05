@@ -1,5 +1,70 @@
 # 面试题
 
+## React
+
+### 一、React Fiber 是什么
+
+React Fiber 是 React16.8 后新增的一种架构。它是 Reconciler 层的一种新型实现，它保存着各个节点静态的虚拟 DOM 数据结构和动态的诸如副作用以及状态的信息。从顶层 App 到 text 节点，都属于 Fiber 节点。
+
+从 RootFiber 开始往下，所有子节点都用 child 连接，子节点用 return 保存父节点。从数据结构来说，它属于链表。
+
+详情见：[ Fiber 架构](https://qiuyanxi.com/react/01#fiber-架构)
+
+### 二、能讲讲 React Fiber 的工作原理吗
+
+Fiber 架构用双缓存来保存生成的虚拟 DOM 树，其中当前渲染的是 current Fiber，而由于更新产生的叫 workInProgress Fiber，两种树的各个节点之间用 alternate 属性连接。 这种设计是为了最大程度地提高 Fiber 节点的复用性。
+
+假设界面需要更新，如果节点的 tag 以及 key 没有发生变化，那么就可以直接根据 alternate 属性来对上次渲染的 Fiber 节点做一个副本并直接返回，这样就省去了重新构建 Fiber 节点带来性能开销。
+
+当 workInProgress 树构建完成后，FiberRootNode 的 current 会指向它，这时它就变成了 current Fiber 树。
+
+详情见：[Fiber 工作原理](https://qiuyanxi.com/react/01#fiber-工作原理)
+
+### 三、React 16 和之前的版本有什么不一样？为什么？
+
+React 16 升级了 15 的架构，加入了 scheduler （调度器）以及 带有 Fiber 的 Reconciler。
+
+调度器是用来调度任务的，它能够给更新任务调度优先级，并且这种调度是异步的，可中断更新的。
+
+Fiber 则是用来优化 Diff 算法的。一个是加入缓存减少重复生成虚拟 DOM 的开销，还一个是优化 Diff 算法，让 Diff 算法的对比尽量精细。
+
+详情见：[架构的演进](https://qiuyanxi.com/react/01#架构的演进)
+
+### 四、能讲讲 Diff 算法吗
+
+React 16 之后的 Diff 算法是用 JSX 生成的对象与 current Fiber 之间的对比，根据对比结果来构建出 workInProgress Fiber 节点的一种实现。
+
+React 官方文档有介绍过，具体的 Diff 规则是：
+
+1. 如果 tag 不同，则重新生成 Fiber 节点
+2. 如果 tag 相同但 key 不同，则重新生成 Fiber 节点
+3. 如果 tag 和 key 都相同，则复用 current Fiber 节点，仅调整变更的属性
+4. 同时分为单元素 Diff 算法以及多元素 Diff 算法。
+
+总的来说，Diff 算法的实现决定原来的 Fiber 节点是复用还是销毁重建，当 Diff 算法完成后，会生成一个 mutation 交给 renderer 去更新视图。
+
+详情见：[Diff 算法](https://qiuyanxi.com/react/02#diff-算法)
+
+### 五、为什么渲染列表需要写 key，key 用 index 可以吗？
+
+key 是 React 与开发者用来提高 React 渲染性能的一种约定。不单单渲染列表，即使在单元素中也可以用 key 提高 React 性能。
+
+在单元素 Diff 算法中，key 用来标识当前节点，如果节点的 key 和 tag 没有变化，那么 React 会复用原来的 Fiber 节点。否则会销毁原来的节点以及子节点，并且重新构建一个 Fiber 节点。
+
+在多元素 Diff 算法中，key 是元素的标识。当插入或者删除元素时，这个 key 能够告诉 React 到底是新增或删除了一个元素还是原来的元素变化了。
+
+举个例子：`[{name:1},{name:2},{name:3}]`,当变成`[{name:1},{name:3}]`时，React 会疑惑，到底仅仅只删掉了`{name:2}`还是把`{name:2}`变成了`{name:3}`并且删掉了原来的`{name:3}`呢？
+
+如果仅用 index 是不能够让 React 知道数据是如何变化的。
+
+如果给一个随时会变化的 key 则更糟糕，它会让 React 误以为所有东西都变化了，就会删掉原来的节点重新构建所有 Fiber 节点。
+
+最好的方式是数据里有一个这样的唯一性标识，这样 React 就能最大程度地复用原来的 Fiber 节点。
+
+当然，如果数据不做新增或者删除的处理，用 index 也可以消除 warning。
+
+详情见：[多元素 diff 算法](https://qiuyanxi.com/react/02#多元素-diff-算法)
+
 ## HTML
 
 1.[HTML 语义化](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#HTML语义化)
