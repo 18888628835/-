@@ -65,48 +65,89 @@ key 是 React 与开发者用来提高 React 渲染性能的一种约定。不�
 
 详情见：[多元素 diff 算法](https://qiuyanxi.com/react/02#多元素-diff-算法)
 
-## HTML
 
-1.[HTML 语义化](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#HTML语义化)
 
-2.[用过哪些 HTML 5 标签](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#用过哪些HTML5标签)
 
-3.[Canvas 和 SVG 的区别是什么](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#Canvas和SVG的区别是什么)
-
-## CSS
-
-1.使用 CSS 实现三角形
-
-```html
-<style>
-  #div {
-    width: 0;
-    height: 0;
-    border: 10px transparent solid;
-    border-bottom-color: red;
-    border-top: none;
-  }
-</style>
-<div id="div"></div>
-```
-
-2.[BFC 是什么](https://github.com/18888628835/Interview/issues/9)
-
-3.[清除浮动的三种方法](https://github.com/18888628835/Interview/issues/10)
-
-4.[垂直居中的五种方式](https://github.com/18888628835/Interview/issues/7)
 
 ## JavaScript/TypeScript
 
-1.[请说说什么是原型链](https://github.com/18888628835/Blog/issues/1)
+### 一、什么是 Falsy 值和 Truthy 值
 
-2.闭包是什么
+JavaScript 会在需要返回布尔类型的语句``&& 和 if()``中强制类型转换，falsy值就是转换后返回 false 的值。
 
-[闭包](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#31-闭包>)
+常见 `falsy` 值：`0`,`-0`,`undefined`,`null`,`Nan`,`false`,`“”`
 
-[深入理解闭包](https://github.com/18888628835/Blog/issues/7)
+`truthy` 值：强制转换后返回 `true` 的值
 
-3.[简述 JS 的垃圾回收](https://github.com/18888628835/Blog/issues/8)
+### 二、JavaScript 有几种类型
+
+四基：`string`、`number`、`bigInt`、`symbol`
+
+两空：`undefined`、`null`
+
+一对象：`object`
+
+### 三、基本数据类型和引用数据类型的区别
+
+对象与原始类型的根本区别之一是，对象是“通过引用”存储和复制的，而原始类型：字符串、数字、布尔值等 —— 总是“作为一个整体”存储和复制。
+
+对象的赋值仅仅是拷贝地址，如果要创建两个完全独立的对象，则需要用到深拷贝来实现。
+
+详情见：[对象引用和复制](https://qiuyanxi.com/javascript/3#对象引用和复制)
+
+### 四、原型是什么
+
+* 每个对象都有一个特殊的隐藏属性`[[Prototype]]`，它要么是另一个对象，要么就是 `null`。
+
+* 通过 `[[Prototype]]` 引用的对象被称为“原型”。
+
+* 原型可以链式引用，每个对象都会链接着一条原型链，终点是 null。
+
+* 很多种方式可以访问到它，比如通过访问器属性`__proto__`、`Object.getPrototypeOf(obj)`等
+
+* 很多种方式可以设置它，比如`Object.setPrototypeOf(obj)`、`__proto__`、`Object.create`等
+
+* 如果对象身上不存在某个属性，那么 JavaScript 会在原型上寻找该属性，这就是原型继承。
+
+* 原型方法上的 `this`是对象自身，因为`对象.method()`相当于显式声明了`this`。
+
+* 虽然array、function、object 等都是不同的对象，它们也有不同的原型(`Array.prototype`、`Object.prototype`、`Date.prototype` 等)，但是它们都会有共同的终极原型`Object.prototype`。
+
+* `prototype`存储着大量的内置方法，原始数据类型也将方法存储在包装器对象的`prototype`中，但`undefined`和`null`没有包装器。
+
+* `for..in`会经过原型对象，但由于属性描述符中的`enumerable`设置成了`false`，所以不会被遍历出来。
+
+* 默认情况下，每个对象的`[[Prototype]]`都指向它的构造函数的`prototype`。
+
+   `对象.__proto__ === 其构造函数.prototype`。
+
+* 当使用 new  时，构造函数的`prototype`会自动加到创建出来的对象的`__proto__`上。
+
+* 原型方法可以被`call`、`apply`方法借用
+
+* 通常，对象会从 `Object.prototype` 继承内建的方法和 `__proto__` getter/setter，会占用相应的键，且可能会导致副作用。原型为 `null` 时，对象才真正是空的。我们可以通过`__proto__`或者`Object.create`设置没有原型的对象。
+
+详情参见：[JavaScript 中的原型](https://qiuyanxi.com/javascript/4#javascript-中的原型)
+
+### 五、简述 JavaScript 的垃圾回收
+
+详情参见：[深入理解垃圾回收](https://qiuyanxi.com/javascript/5#深入理解垃圾回收)
+
+### 六、闭包是什么
+
+* 闭包就是一个函数可以记住其外部变量并可以访问这些变量。
+* 闭包能产生的原因是函数的隐藏属性`[[Environment]]`保存着从函数内部词法环境到全局词法环境的引用。
+* 闭包能一直存在于内存中是因为它是可达的——有外部变量引用到它。
+* 如果闭包函数不再可达，那么垃圾收集器就会删除掉它。
+* `var`、`let/const`、`function`这几个变量声明的方式，生成词法环境时实现不太一致。
+* `var`和`function`都允许在声明前使用变量，对于 `let/const`来说，它们是提升的。
+* `var`和`function`的区别是`function`在初始化时是立即初始化的，而 `var`会先变成`undefined`。
+
+详情参见：[深入理解闭包](https://qiuyanxi.com/javascript/6#深入理解闭包)
+
+旧文章：[闭包](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#31-闭包>) 、[深入理解闭包](https://github.com/18888628835/Blog/issues/7)
+
+
 
 4.[鼠标事件实现拖放](https://github.com/18888628835/Blog/blob/main/浏览器/UI事件.md#31-鼠标事件实现拖放)
 
@@ -139,6 +180,37 @@ key 是 React 与开发者用来提高 React 渲染性能的一种约定。不�
 18.[惰性加载函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#324-高阶函数的其他应用>)
 
 19.[什么是高阶函数](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#32-高阶函数>)
+
+## HTML
+
+1.[HTML 语义化](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#HTML语义化)
+
+2.[用过哪些 HTML 5 标签](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#用过哪些HTML5标签)
+
+3.[Canvas 和 SVG 的区别是什么](https://github.com/18888628835/Interview/blob/main/HTML面试题.md#Canvas和SVG的区别是什么)
+
+## CSS
+
+1.使用 CSS 实现三角形
+
+```html
+<style>
+  #div {
+    width: 0;
+    height: 0;
+    border: 10px transparent solid;
+    border-bottom-color: red;
+    border-top: none;
+  }
+</style>
+<div id="div"></div>
+```
+
+2.[BFC 是什么](https://github.com/18888628835/Interview/issues/9)
+
+3.[清除浮动的三种方法](https://github.com/18888628835/Interview/issues/10)
+
+4.[垂直居中的五种方式](https://github.com/18888628835/Interview/issues/7)
 
 ## HTTP
 
