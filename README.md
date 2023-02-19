@@ -147,6 +147,46 @@ JavaScript 会在需要返回布尔类型的语句``&& 和 if()``中强制类型
 
 旧文章：[闭包](<https://github.com/18888628835/Blog/blob/main/JavaScript设计模式/JavaScript设计模式与开发实践读书笔记(基础篇).md#31-闭包>) 、[深入理解闭包](https://github.com/18888628835/Blog/issues/7)
 
+### 七、let、const 与 var 的区别
+
+* `let` 和 `const` 的区别是 `const` 不能再次赋值
+
+* `let/const`与 `var` 的区别是`var `会变量提升，`let/const`则没有。原因是 `JavaScript` 对 `let/const`声明的变量限制为声明后才能使用,对`var`声明的变量则没有这个限制。这个限制也导致块级作用域下“暂时性死区”问题。
+
+* `let`声明和`var`声明受块级作用域限制不同。
+
+  ```js
+  {
+    let a=10;
+    var b=20
+  }
+  a //Uncaught ReferenceError: a is not defined
+  b //20
+  ```
+
+* let声明配合循环可以创建独立的作用域
+
+  ```js
+  for(var i=0;i<6;i++){
+    setTimeout(()=>{
+      console.log(i)
+    },0)
+  }
+  //6 6 6 6 6 6
+  
+  for(let i=0;i<6;i++){
+    setTimeout(()=>{
+      console.log(i)
+    },0)
+  }
+  //0 1 2 3 4 5 
+  ```
+
+* `let/const`不允许重复声明
+* `let/const`声明不会将变量挂到`window`顶层对象中
+
+详情参见：[let、const 与 var 的区别](https://github.com/18888628835/Blog/issues/11)
+
 
 
 4.[鼠标事件实现拖放](https://github.com/18888628835/Blog/blob/main/浏览器/UI事件.md#31-鼠标事件实现拖放)
@@ -154,8 +194,6 @@ JavaScript 会在需要返回布尔类型的语句``&& 和 if()``中强制类型
 5.[手动实现 new 关键字](https://github.com/18888628835/Blog/issues/40)
 
 6.[手写 call、apply、bind](https://github.com/18888628835/Blog/issues/41)
-
-7.[let、const 与 var 的区别](https://github.com/18888628835/Blog/issues/11)
 
 8.[手写防抖和节流](https://github.com/18888628835/Interview/issues/12)
 
